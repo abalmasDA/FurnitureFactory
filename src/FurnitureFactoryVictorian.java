@@ -2,20 +2,20 @@ public class FurnitureFactoryVictorian implements FurnitureFactory {
 
     @Override
     public Furniture createArmchair() {
-        Furniture furniture = new ArmchairVictorian();
-        return furniture;
+        Furniture armchair = new ArmchairVictorian();
+        return armchair;
     }
 
     @Override
     public Furniture createSofa() {
-        Furniture furniture = new SofaVictorian();
-        return furniture;
+        Furniture sofa = new SofaVictorian();
+        return sofa;
     }
 
     @Override
     public Furniture createTable() {
-        Furniture furniture = new TableVictorian();
-        return furniture;
+        Furniture table = new TableVictorian();
+        return table;
     }
 
 }
