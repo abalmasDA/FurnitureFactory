@@ -4,18 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b6161ff-6fd7-4126-b68b-1d11f088923b" name="Changes" comment="Commit2">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FurnitureFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FurnitureFactoryArtDeco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FurnitureFactoryModern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FurnitureFactoryVictorian.java" afterDir="false" />
+    <list default="true" id="9b6161ff-6fd7-4126-b68b-1d11f088923b" name="Changes" comment="Commit4">
+      <change afterPath="$PROJECT_DIR$/src/ArmchairModern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArmchairVictorian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SofaModern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SofaVictorian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TableModern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TableVictorian.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Armchair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Armchair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Armchair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArmchairArtDeco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Furniture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Furniture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FurnitureFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FurnitureFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FurnitureFactoryArtDeco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FurnitureFactoryArtDeco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FurnitureFactoryModern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FurnitureFactoryModern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FurnitureFactoryVictorian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FurnitureFactoryVictorian.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sofa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sofa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sofa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SofaArtDeco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TableArtDeco.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +88,10 @@
       <updated>1685450169711</updated>
       <workItem from="1685557988909" duration="882000" />
       <workItem from="1685596331832" duration="4391000" />
-      <workItem from="1685602732908" duration="6528000" />
+      <workItem from="1685602732908" duration="6937000" />
+      <workItem from="1685612833423" duration="1713000" />
+      <workItem from="1685616178201" duration="2263000" />
+      <workItem from="1685624234940" duration="5589000" />
     </task>
     <task id="LOCAL-00001" summary="Commit1">
       <created>1685458903691</created>
@@ -92,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685458903691</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit4">
+      <created>1685609397110</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685609397110</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,7 +115,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit1" />
+    <MESSAGE value="Commit4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit4" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,7 +1,7 @@
 public interface Furniture {
+    String getNameItem();
 
-    void getInfoItem();
-
+    double getPriceItem();
 
 }
 

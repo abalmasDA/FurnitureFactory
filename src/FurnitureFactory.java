@@ -1,11 +1,10 @@
 
 public interface FurnitureFactory {
-    void createArmchair();
+    Furniture createArmchair();
 
-    void createSofa();
+    Furniture createSofa();
 
-    void createTable();
+    Furniture createTable();
 
-    void getTotalSumFurniture();
 
 }
