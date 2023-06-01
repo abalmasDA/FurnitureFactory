@@ -1,10 +1,16 @@
-public class Sofa extends Furniture {
+public class Sofa implements Furniture {
+    private String name;
+    private double price;
+
     public Sofa(String name, double price) {
-        super(name, price);
+        this.name = name;
+        this.price = price;
     }
 
     @Override
-    public String getInfoItem() {
-        return "Диван - " + name + ", " + price + " грн.";
+    public void getInfoItem() {
+        System.out.println("Диван - " + name + ", " + price + " грн.");
     }
+
+
 }

@@ -1,10 +1,16 @@
-public class Table extends Furniture {
+public class Table implements Furniture {
+    private String name;
+    private double price;
+
     public Table(String name, double price) {
-        super(name, price);
+        this.name = name;
+        this.price = price;
     }
 
     @Override
-    public String getInfoItem() {
-        return "Столик - " + name + ", " + String.format("%.0f", price).replace(",", ".") + " грн.";
+    public void getInfoItem() {
+        System.out.println("Столик - " + name + ", " + String.format("%.0f", price).replace(",", ".") + " грн.");
     }
+
+
 }

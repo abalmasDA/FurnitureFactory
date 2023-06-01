@@ -39,8 +39,6 @@ import java.util.Scanner;
 
 public class Main {
     static Scanner scannerInput = new Scanner(System.in);
-    private static final String TOTAL_SUM_ITEM = "Загальна сума: ";
-    private static final String CURRENCY = " грн.";
 
     public static void main(String[] args) {
         System.out.println("Фабрика виготовляє меблі наступних стилів:" + "\n"
@@ -52,36 +50,31 @@ public class Main {
         System.out.println("Ви обрали варіант: " + userChoice);
         switch (userChoice) {
             case 1:
-                Furniture armchair1 = new Armchair("\"Шумна крапка\"", 7451);
-                System.out.println(armchair1.getInfoItem());
-                Furniture sofa1 = new Sofa("\"Глибина озера\"", 5475.61);
-                System.out.println(sofa1.getInfoItem());
-                Furniture table1 = new Table("\"Частинка щастя\"", 9610);
-                System.out.println(table1.getInfoItem());
-                System.out.println(TOTAL_SUM_ITEM + (armchair1.getPrice() + sofa1.getPrice() + table1.getPrice()) + CURRENCY);
+                FurnitureFactory furnitureArtDeco = new FurnitureFactoryArtDeco();
+                furnitureArtDeco.createArmchair();
+                furnitureArtDeco.createSofa();
+                furnitureArtDeco.createTable();
+                furnitureArtDeco.getTotalSumFurniture();
                 break;
             case 2:
-                Furniture armchair2 = new Armchair("\"Тиха гавань\"", 2340);
-                System.out.println(armchair2.getInfoItem());
-                Furniture sofa2 = new Sofa("\"Мудрість віків\"", 7340.57);
-                System.out.println(sofa2.getInfoItem());
-                Furniture table2 = new Table("\"Місце роздумів\"", 4340);
-                System.out.println(table2.getInfoItem());
-                System.out.println(TOTAL_SUM_ITEM + (armchair2.getPrice() + sofa2.getPrice() + table2.getPrice()) + CURRENCY);
+                FurnitureFactory furnitureVictorian = new FurnitureFactoryVictorian();
+                furnitureVictorian.createArmchair();
+                furnitureVictorian.createSofa();
+                furnitureVictorian.createTable();
+                furnitureVictorian.getTotalSumFurniture();
                 break;
             case 3:
-                Furniture armchair3 = new Armchair("\"Стар шіп\"", 1340);
-                System.out.println(armchair3.getInfoItem());
-                Furniture sofa3 = new Sofa("\"Гіпер портал\"", 5340.17);
-                System.out.println(sofa3.getInfoItem());
-                Furniture table3 = new Table("\"Пульт керування\"", 4340);
-                System.out.println(table3.getInfoItem());
-                System.out.println(TOTAL_SUM_ITEM + (armchair3.getPrice() + sofa3.getPrice() + table3.getPrice()) + CURRENCY);
+                FurnitureFactory furnitureModern = new FurnitureFactoryModern();
+                furnitureModern.createArmchair();
+                furnitureModern.createSofa();
+                furnitureModern.createTable();
+                furnitureModern.getTotalSumFurniture();
                 break;
             default:
                 System.out.println("Такий код відсутній, спробуйте ще раз.");
         }
         scannerInput.close();
+
 
     }
 }
